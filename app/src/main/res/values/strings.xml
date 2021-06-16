@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PodcastApp</string>
+    <string name="title_activity_my_profil">MyProfil</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_album">Album</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="first_time_here_sign_up">First time here? SIGN UP.</string>
+    <string name="keep_logged_in">Keep Logged In</string>
+    <string name="log_in">LOG IN</string>
+    <string name="user_name">User name</string>
+    <string name="password">Password</string>
+    <string name="confirm_your_password">Confirm your password</string>
+    <string name="i_agree_to_the_terms_and_conditions">I agree to the terms and conditions</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="already_have_an_account_log_in">Already have an account? LOG IN.</string>
+    <string name="email">Email</string>
+</resources>

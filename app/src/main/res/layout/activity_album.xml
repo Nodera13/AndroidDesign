@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background4"
+    tools:context=".Album">
+
+
+    <ImageButton
+        android:id="@+id/gobackbtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/rep_shuffle_btn2"
+        android:src="@drawable/go_back"
+        android:layout_marginTop="50dp"
+
+        android:layout_marginLeft="12dp"
+        app:tint="@color/colorGray">
+
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/menubtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/rep_shuffle_btn2"
+        android:src="@drawable/menu"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="330dp"
+        app:tint="@color/colorGray">
+
+    </ImageButton>
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/alb2"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stan and Nikola"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="510dp"
+        android:layout_gravity="center_horizontal">
+
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Episode 21"
+        android:textColor="@color/colorGray"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_marginTop="540dp"
+        android:layout_gravity="center_horizontal">
+
+    </TextView>
+    <ImageButton
+        android:id="@+id/repbtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/rep_shuffle_btn2"
+        android:src="@drawable/repeat"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="110dp"
+        app:tint="@color/colorGray">
+
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/favbtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/rep_shuffle_btn2"
+        android:src="@drawable/favoirite"
+        android:layout_marginTop="580dp"
+        android:layout_gravity="center_horizontal"
+        app:tint="@color/colorGray">
+
+    </ImageButton>
+    <ImageButton
+        android:id="@+id/shufflebtn"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/rep_shuffle_btn2"
+        android:src="@drawable/shuffle"
+        android:layout_marginTop="580dp"
+        android:layout_marginLeft="240dp"
+        app:tint="@color/colorGray">
+
+    </ImageButton>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="680dp"
+            android:text="31:40"
+            android:textColor="@color/colorGray"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="680dp"
+            android:text="77:28"
+            android:textColor="@color/colorGray"
+            android:textSize="16dp">
+
+        </TextView>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="660dp"
+            android:progress="40"
+
+            />
+
+        <ImageButton
+            android:id="@+id/playbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/play_btn_bg2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/play"
+            app:tint="@color/colorWhite">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/prevbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/next_prev_btn2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/prev">
+
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/nextbtn"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="700dp"
+            android:background="@drawable/next_prev_btn2"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/next">
+
+        </ImageButton>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
